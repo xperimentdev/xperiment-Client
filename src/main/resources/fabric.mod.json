@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "xperiment-client",
+  "version": "${version}",
+  "name": "Xperiment Client",
+  "description": "A clean Apple-inspired client dashboard for Minecraft.",
+  "authors": ["xperiment"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.xperiment.client.XperimentClient"] },
+  "depends": { "fabricloader": ">=0.18.4", "minecraft": "~1.21.11", "fabric-api": "*" }
+}
